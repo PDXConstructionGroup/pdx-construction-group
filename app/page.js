@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Star, Hammer, Drill, Wrench, Ear, PencilRuler, CheckCircle } from "lucide-react";
 
 export default function PDXConstructionGroup() {
   return (
@@ -39,7 +38,7 @@ export default function PDXConstructionGroup() {
         <Card className="rounded-2xl shadow-sm">
           <CardContent className="p-8">
             <h2 className="text-3xl font-semibold mb-4 flex items-center gap-3">
-              <Hammer className="text-[#8b4a2f]" size={28} /> What We Do
+              What We Do
             </h2>
             <ul className="space-y-3 text-lg">
               <li>General Contracting</li>
@@ -52,7 +51,7 @@ export default function PDXConstructionGroup() {
         <Card className="rounded-2xl shadow-sm">
           <CardContent className="p-8">
             <h2 className="text-3xl font-semibold mb-4 flex items-center gap-3">
-              <Wrench className="text-[#8b4a2f]" size={28} /> Why Us
+              Why Us
             </h2>
             <p className="text-lg leading-relaxed">
               Our work is built around our clients. We are attentive listeners who take the time to understand your goals, values, and priorities before we ever pick up a tool. With over 10 years of hands-on experience, we design and build solutions that are specific to each client — and it shows in the quality of our work.
@@ -67,21 +66,18 @@ export default function PDXConstructionGroup() {
         <div className="grid md:grid-cols-3 gap-10">
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-8">
-              <Ear className="text-[#8b4a2f] mb-4" size={32} />
               <h3 className="text-2xl font-semibold mb-3">Listen</h3>
               <p className="text-lg">We start by understanding your needs, values, and vision. Every project begins with clear communication.</p>
             </CardContent>
           </Card>
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-8">
-              <PencilRuler className="text-[#8b4a2f] mb-4" size={32} />
               <h3 className="text-2xl font-semibold mb-3">Design</h3>
               <p className="text-lg">We create solutions tailored specifically to your home, budget, and long-term goals.</p>
             </CardContent>
           </Card>
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-8">
-              <CheckCircle className="text-[#8b4a2f] mb-4" size={32} />
               <h3 className="text-2xl font-semibold mb-3">Deliver</h3>
               <p className="text-lg">Clean, efficient work done with care, accountability, and respect for your space.</p>
             </CardContent>
